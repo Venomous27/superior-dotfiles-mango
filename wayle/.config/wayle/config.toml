@@ -14,7 +14,7 @@ monitor = "*"
 show = true
 left = [
     "dashboard",
-    "hyprland-workspaces",
+    "mango-workspaces",
     "separator",
     "idle-inhibit",
     "separator",
