@@ -1,5 +1,5 @@
 <h1 align="center">【 venomous's dotfiles 】</h1>
-<h1 align="center">【 This is a clone of my hyprland dotfiles. I'm currently working on mangowm. I'll update this repo ASAP 】</h1>
+
 <div align="center"> 
 
 ![](https://img.shields.io/github/last-commit/Venomous27/superior-dotfiles-mango?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
@@ -35,7 +35,7 @@ I love my Setup soooo much <3
 ### 🎥 Live Video Demos
 
 ## 🎨 Theme Switcher  
-https://github.com/user-attachments/assets/59f5cff9-f70b-4cf1-b9a6-e852cd3c47f0
+
 
 ---
 
