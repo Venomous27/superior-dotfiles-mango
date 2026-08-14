@@ -1,0 +1,3 @@
+timeout 180 ~/.local/share/quickshell-lockscreen/lock.sh
+timeout 300 swaymsg "output * power off" resume swaymsg "output * power on"
+before-sleep ~/.local/share/quickshell-lockscreen/lock.sh

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-THEME_DIR="$HOME/dotfiles/themes/.config/themes"
+THEME_DIR="$HOME/superior-dotfiles-mango/themes/.config/themes"
 
 # ── Get Theme ─────────────────────────────────
 
@@ -19,10 +19,10 @@ THEME=$(
 
 SRC="$THEME_DIR/$THEME"
 
-# ── Hyprland ─────────────────────────────────
+# ── Mango ─────────────────────────────────
 
-cp "$SRC/hypr.conf" \
-  "$HOME/.config/hypr/themes/current.conf"
+cp "$SRC/color.conf" \
+  "$HOME/.config/mango/color.conf"
 
 # ── Kitty ────────────────────────────────────
 
@@ -56,9 +56,9 @@ xfconf-query -c xsettings -p /Net/ThemeName -s "$(grep 'Net/ThemeName' ~/.config
 
 xfconf-query -c xsettings -p /Net/IconThemeName -s "$(grep 'Net/IconThemeName' ~/.config/xsettingsd/xsettingsd.conf | cut -d '"' -f2)"
 
-# ── Reload Hyprland ──────────────────────────
+# ── Reload Mango ──────────────────────────
 
-hyprctl reload >/dev/null 2>&1
+mmsg dispatch reload_config >/dev/null 2>&1
 
 # ── Notification ─────────────────────────────
 

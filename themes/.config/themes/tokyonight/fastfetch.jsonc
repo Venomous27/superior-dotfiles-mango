@@ -3,7 +3,7 @@
 
    "logo": {
     "type": "file",
-    "source": "~/dotfiles/fastfetch/.config/fastfetch/vnm-ascii.txt",
+    "source": "~/superior-dotfiles-mango/fastfetch/.config/fastfetch/vnm-ascii.txt",
     "padding": {
       "top":9,
       "left": 1

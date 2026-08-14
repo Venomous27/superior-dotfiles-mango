@@ -22,7 +22,7 @@ green = "#e2c0a5"
 icon-color = "#ffb877"
 icon-bg-color = "transparent"
 
-[modules.mango-workspaces]
+[modules.hyprland-workspaces]
 container-bg-color = "transparent"
 active-color = "#ffb877"
 occupied-color = "#d5c3b6"

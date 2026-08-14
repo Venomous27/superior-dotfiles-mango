@@ -2,15 +2,15 @@
 <h1 align="center">【 This is a clone of my hyprland dotfiles. I'm currently working on mangowm. I'll update this repo ASAP 】</h1>
 <div align="center"> 
 
-![](https://img.shields.io/github/last-commit/Venomous27/superior-dotfiles?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/stars/Venomous27/superior-dotfiles?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
-![](https://img.shields.io/github/repo-size/Venomous27/superior-dotfiles?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/last-commit/Venomous27/superior-dotfiles-mango?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/Venomous27/superior-dotfiles-mango?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/Venomous27/superior-dotfiles-mango?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
 <a href="https://discord.gg/wrtk6zXhJ"> <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2Fwrtk6zXhJ%3Fwith_counts%3Dtrue&query=approximate_member_count&style=for-the-badge&logo=discord&logoColor=D9E0EE&label=discord&labelColor=%231E202B&color=86dbc0&link=https%3A%2F%2Fdiscord.gg%2Fwrtk6zXhJ"> </a>
 
 </div>
 <!--thanks end4 for these badges https://github.com/end-4 -->
 
-A simple and beautiful Hyprland daily driver desktop environment, built for seamless tiling and powered by a dynamic proxy theme engine.
+A Simple and Beautiful Mango daily driver desktop environment.
 
 --- 
 ---
@@ -19,13 +19,14 @@ A simple and beautiful Hyprland daily driver desktop environment, built for seam
 ---
 ---
 
-## 🤖 The Story Behind This Rice
+## The Story Behind This Rice
 
 > *"I knew exactly what I wanted, but I didn't have the time to learn how to code a desktop environment from scratch."*
 
-Let's be real: I am completely packed with school and studies right now. I needed a rock-solid, incredibly gorgeous **working machine**, not a new coding hobby. Because of that, **these dotfiles were built entirely using AI.**
+C'mon buddy, I got so much school work to do and i can't afford to waste time to learn how to code a desktop environment from scratch instead of studying (I'm speaking like got books in my hand 24/7 lol). So yeah, these dotfiles are **built using AI.** I mean I'm trying to learn to code and i edited some stuff on my own in theses dotfiles. It's like I'm learning while making AI do it for me :p
 
-I directed the workflows, ironed out the functionality, and let AI handle the heavy lifting. I am absolutely thrilled with the results, and it proves you don't need to waste weeks writing configuration code manually to get a powerful, tailored Linux setup.
+Well I told AI what I wanted and it did the rest for me. Bruh it's not that easy tho. I still had to face many issues and spend hours to fix it. But yeah, it's worth it.
+I love my Setup soooo much <3
 
 ---
 
@@ -33,19 +34,13 @@ I directed the workflows, ironed out the functionality, and let AI handle the he
 
 ### 🎥 Live Video Demos
 
-Watch the system in action, showcasing smooth transitions and layout switches:
-
-## 🎨 Dynamic Theme Switching Proxy  
+## 🎨 Theme Switcher  
 https://github.com/user-attachments/assets/59f5cff9-f70b-4cf1-b9a6-e852cd3c47f0
-
-## 🪟 Tiling & Scrolling Layout Toggle 
-https://github.com/user-attachments/assets/32b297fb-f3bd-44a6-8e2d-ea367441ad02
 
 ---
 
 ### 🖼️ System Screenshots
 
-Closer looks at individual application themes and terminal workflows:
 
 ### Adding soon 
 
@@ -53,22 +48,21 @@ Closer looks at individual application themes and terminal workflows:
 
 ## ✨ Key Features
 
-* **Dual Workflow Modes:** Seamlessly switch between traditional automatic window tiling and fluid layout scrolling modes inside Hyprland.
-* **Proxy-Based Theme Switching:** Swap the visual aesthetics of the entire desktop on the fly. The underlying engine instantly copies theme-specific proxy overrides directly into the active application configs.
-* **All-in-One Rofi Menu Suite:** A collection of custom Rofi scripts covering the app launcher, theme switcher, wallpaper changer, and a power menu (shutdown/reboot/sleep/logout), plus a clipboard history picker and an emoji/kaomoji/math-symbol/Nerd Font glyph picker.
-* **Stow Managed:** Zero copy-pasting cluttering up your machine. Everything lives in one place and symlinks instantly.
+* **Proxy-Based Theme Switching:** Ehh it's just preconfigured thmes which copies the theme files into the active application configs.
+* **All-in-One Rofi Menu Suite:** Yeah I use Rofi for everything. App launcher, theme switcher, wallpaper changer, power menu, clipboard history picker, and emoji/kaomoji/math-symbol/Nerd Font glyph picker.
+* **Stow Managed:** Damn it's easy to manage dotfiles using Stow. Stow is used to symlink dotfiles from your folder (where you store your dotfiles) into the respective application's configuration directories.
 
 ---
 
-## 🚨 Crucial Architecture & Core Software
+## Install These :P
 
-> ⚠️ **Important:** The theme switcher relies on a strict application ecosystem. It injects specific proxy configs dynamically into the target software below. **If these specific apps are missing, the theme switcher script — and other parts of the setup — will fail to apply themes or function properly.**
+> ⚠️ **Important:** The theme switcher relies on a specific application. Like for example, I use Thunar as my file mannger and hence i made themes for it only. So basically it won't work for other applications which I don't use. So yeah install them if you want to use the theme switcher. It's optional but recommended :)
 
 > **Platform note:** This setup targets **Arch Linux / CachyOS** specifically. Install everything below before stowing any config.
 
 | Role | Component | Description | Why it's mandatory |
 |---|---|---|---|
-| **Compositor** | [Hyprland](https://hypr.land/) | Dynamic Wayland tiling window manager | Core window manager accepting dynamic reloads. |
+| **Compositor** | [MangoWM](https://mangowm.github.io/) | Lightweight& Feature-Rich | mangowm is a modern wayland compositor based on wlroots & scenefx. |
 | **Terminal** | [Kitty](https://sw.kovidgoyal.net/kitty/) | GPU-accelerated terminal emulator | Custom configurations are written dynamically to its theme profiles. |
 | **File Manager** | [Thunar](https://docs.xfce.org/xfce/thunar/start) | Lightweight file manager | The hardcoded target file manager for system UI paths. |
 | **Symlinks** | [GNU Stow](https://www.gnu.org/software/stow/) | Manages dotfiles using symbolic links | Required to map these configurations into your `$HOME`. |
@@ -81,45 +75,11 @@ Closer looks at individual application themes and terminal workflows:
 | **Screenshot Capture** | [Hyprshot](https://github.com/Gustash/Hyprshot) | Screenshot utility built for Hyprland | Handles the capture step of the screenshot workflow. |
 | **Clipboard** | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) | Wayland clipboard utilities (`wl-copy`/`wl-paste`) | Required for clipboard actions across the desktop. |
 | **System Info** | [Fastfetch](https://github.com/fastfetch-cli/fastfetch) | Fast system information tool | Used in the terminal welcome layout. |
-| **Idle Daemon** | [Hypridle](https://github.com/hyprwm/hypridle) | Idle daemon for Hyprland | Triggers lock/sleep behavior. |
-| **Screen Locker** | [Hyprlock](https://github.com/hyprwm/hyprlock) | GPU-accelerated screen locker | Provides the themed lock screen. |
-| **Desktop Portal** | [xdg-desktop-portal-hyprland](https://github.com/hyprwm/xdg-desktop-portal-hyprland) | XDG portal backend for Hyprland | Enables screen sharing, screenshots, and desktop integration. |
+| **Idle Daemon** | [Swayidle](https://github.com/swaywm/swayidle) | Idle daemon for Sway | Triggers lock/sleep behavior. |
+| **Screen Locker** | [QLOCK](https://github.com/Darkkal44/qylock) | Homie Cooked with This one | I use this one as my screen locker and for sddm theme |
 | **XDG Utilities** | [xdg-utils](https://www.freedesktop.org/wiki/Software/xdg-utils/) | Utilities like `xdg-open` | Handles opening files/URLs from the desktop environment. |
+| **xdg-desktop-portal-wlr** | [xdg-desktop-portal-wlr](https://github.com/swaywm/xdg-desktop-portal-wlr) | Wayland desktop portal implementation | Provides desktop portal services for Sway. |
 | **Sound System** | PulseAudio *(or PipeWire + `pipewire-pulse`)* | PulseAudio-compatible audio server | Volume mixer keys and audio scripts rely on this control interface. |
-
----
- 
-## 🧩 Hyprland Plugins
- 
-On top of the base dependencies above, this setup optionally uses the official **[hyprscrolling](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprscrolling)** plugin — the PaperWM-style scrolling layout that powers the "layout scrolling" workflow mode mentioned in [Key Features](#-key-features).
- 
-Plugins are managed through `hyprpm`, Hyprland's built-in plugin manager, so no manual compiling is needed.
- 
-### Install & Enable `hyprscrolling & Gloview`
- 
-```bash
-# Update hyprpm's plugin headers to match your installed Hyprland version
-hyprpm update
- 
-# Add the official hyprland-plugins repo (contains hyprscrolling)
-hyprpm add https://github.com/hyprwm/hyprland-plugins
-hyprpm add https://github.com/fedsfarm/gloview
- 
-# Enable the plugin
-hyprpm enable hyprscrolling
-hyprpm enable gloview
- 
-# Load enabled plugins into the running session
-hyprpm reload
-```
- 
-> ⚠️ **Version matching:** `hyprpm` builds plugins against your exact installed Hyprland version. If you update Hyprland, run `hyprpm update` again afterward or the plugin will fail to load until it's rebuilt.
- 
-You can confirm it's active anytime with:
- 
-```bash
-hyprpm list
-```
 
 ---
 
@@ -142,13 +102,14 @@ If you see this banner, edit the corresponding file in the theme palettes folder
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### 1. Install Dependencies
 
-Install everything listed in the [Core Software](#-crucial-architecture--core-software) table manually for now — some packages live in the official repos (`pacman`) and others in the AUR (`yay`/`paru`), so a one-liner would be misleading.
+Install everything listed in the [Install These](#-Install-These-:P) table manually for now — some packages live in the official repos (`pacman`) and others in the AUR (`yay`/`paru`).
 
 > 🦥 I'm too lazy to write out a full install command right now — might add a proper install script in the future. For now, go through the table above and install each package manually.
+YEAH I"LL MAKE A INSTALL SCRIPT. AND I"LL MAKE IT ON MY OWN, NO AI. I'LL LEARN TO CODE. 
 
 ### 2. Back Up Existing Configs
 
@@ -156,19 +117,19 @@ Install everything listed in the [Core Software](#-crucial-architecture--core-so
 
 ```bash
 mkdir -p ~/.config-backup
-mv ~/.config/{hypr,kitty,waybar,rofi,thunar} ~/.config-backup/ 2>/dev/null
+mv ~/.config/{mango,kitty,waybar,rofi,thunar} ~/.config-backup/ 2>/dev/null
 ```
 
 ### 3. Clone the Repository
 
 ```bash
-git clone https://github.com/Venomous27/superior-dotfiles.git ~/superior-dotfiles
-cd ~/superior-dotfiles
+git clone https://github.com/Venomous27/superior-dotfiles-mango.git ~/superior-dotfiles-mango
+cd ~/superior-dotfiles-mango
 ```
 
 ### 4. Deploy with Stow
 > **⚠️ Note on Themes & Icons Folders:**
-> I haven't included the `gtk-themes`, `icons`, `gtk-themes`, `xsettingsd`  folders in the default Stow command because they contain my actual theme files. If you want to use my full dynamic theme switcher setup, **please back up your existing themes and icons first**, delete your old folders, and then run Stow to link these. Afterward, you can simply move your old custom files back into the newly symlinked folders!
+> I haven't included the `gtk-themes`, `icons`, `gtk-themes`, `xsettingsd`  folders in the default Stow command because they contain my actual theme files like the icons and themes I downloaded from the internet. So **just back-up your existing themes and icons first, delete your old folders, and then run Stow to link these. Then you can copy your custom themes and icons into the new (symlinked) folders.**
 
 ```bash
 stow cava fastfetch hypr kitty rofi themes xsettingsd wayle matugen 
@@ -176,11 +137,13 @@ stow cava fastfetch hypr kitty rofi themes xsettingsd wayle matugen
 
 ### 5. Verify & Launch
 
-Restart Hyprland (or reboot), then confirm everything loaded:
+Restart Mango (or reboot), then confirm everything loaded:
 
 ```bash
-hyprctl reload
+mmsg dispatch reload_config
 ```
 ---
 
-*Built with plenty of AI assistance and zero regrets. 🚀*
+**Yeah I agree that I built this with AI and you call it slop and I agree that being overdedpendent on AI is not a good idea but I couldn't learn to code rn and I wanted a nice rice.**<br>
+<br>**But hey, at least compliment me. I learned much more while building this. If you compare it to my previous dotfiles, you'll see that I did some manual tweaking in configuration and the last README was completely AI but this time I added little bit of my own touch.**<br>
+<br>**I promise I'll learn to code soon enough.**
