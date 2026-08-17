@@ -149,5 +149,5 @@ mmsg dispatch reload_config
 <br>**I promise I'll learn to code soon enough.**
 
 # Credits
-Lock Screen: https://github.com/Darkkal44
-Layout Switcher: https://github.com/SDG-Den
+<br>Lock Screen: https://github.com/Darkkal44 </br>
+<br>Layout Switcher: https://github.com/SDG-Den </br>
