@@ -147,3 +147,7 @@ mmsg dispatch reload_config
 **Yeah I agree that I built this with AI and you call it slop and I agree that being overdedpendent on AI is not a good idea but I couldn't learn to code rn and I wanted a nice rice.**<br>
 <br>**But hey, at least compliment me. I learned much more while building this. If you compare it to my previous dotfiles, you'll see that I did some manual tweaking in configuration and the last README was completely AI but this time I added little bit of my own touch.**<br>
 <br>**I promise I'll learn to code soon enough.**
+
+# Credits
+Lock Screen: https://github.com/Darkkal44
+Layout Switcher: https://github.com/SDG-Den
