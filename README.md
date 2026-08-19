@@ -79,7 +79,7 @@ I love my Setup soooo much <3
 | **Screen Locker** | [QLOCK](https://github.com/Darkkal44/qylock) | Homie Cooked with This one | I use this one as my screen locker and for sddm theme |
 | **XDG Utilities** | [xdg-utils](https://www.freedesktop.org/wiki/Software/xdg-utils/) | Utilities like `xdg-open` | Handles opening files/URLs from the desktop environment. |
 | **xdg-desktop-portal-wlr** | [xdg-desktop-portal-wlr](https://github.com/swaywm/xdg-desktop-portal-wlr) | Wayland desktop portal implementation | Provides desktop portal services for Sway. |
-| **Sound System** | PipeWire | Volume mixer keys and audio scripts rely on this control interface. |
+| **Sound System** | PipeWire | Audio Server | Volume mixer keys and audio scripts rely on this control interface. |
 
 ---
 
